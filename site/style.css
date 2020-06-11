@@ -66,12 +66,13 @@ p{
 	margin-top: 0;
 	text-align: center;
 	padding-top: 1%;
+	font-size: 150%;
 }
 #p1{
 	background-color: #ffb3b3;
 	position: relative;
 	top:0%;
-	left:80%;
+	right:80%;
 }
 #p2{
 	background-color: #ffff99;
