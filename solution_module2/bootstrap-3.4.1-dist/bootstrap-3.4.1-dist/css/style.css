@@ -1,0 +1,139 @@
+body {
+	background-color: #FFDAB9;
+	font-family: 'Lora',serif;
+}
+#collapsable-nav{
+	border:0;
+}
+#header-nav {
+ border:0;
+ background-color: #000000;
+ border-radius: 0;
+
+
+}
+.row{
+	margin:20px;
+}
+.navbar-header{
+	width: 100%
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand{
+	height :100px;
+}
+.navbar-brand h1{
+	color: #FF6347;
+	font-family: 'Lora', serif;
+	font-weight: bold ; 
+	font-size : 3em;
+	text-shadow: 1px 1px 1px #FFF;
+}
+h2{
+	color: #000000;
+	font-family: 'Lora',serif;
+	font-size : 3em;
+	text-shadow: 1.5px 1.5px 1.5px #FFF;
+}
+h3{
+	text-align: center;
+	font-family: 'Lora',serif;
+}
+#Chicken{
+	box-sizing: border-box;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Lora',serif;
+	text-align: justify;
+	padding:20px;
+	position:relative;
+	align-content: center;
+	object-position: center;
+	border: 20px   solid #FFDAB9;
+	border-left: 20px solid #FFDAB9;
+	border-right: 10px solid #FFDAB9;	
+}
+#Sushi{
+	box-sizing: border-box;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Lora',serif;
+	text-align: justify;
+	padding:20px ;
+	position:relative;
+	align-content: center;
+	object-position: center;
+	border: 20px solid #FFDAB9;
+
+	
+}
+#Beef{
+	box-sizing: border-box;
+	background-color:  #000000;
+	color: #FFFFFF;
+	font-family: 'Lora',serif;
+	text-align: justify;
+	padding:20px;
+	position:relative;
+	align-content: center;
+	object-position: center;
+	border: 20px  solid #FFDAB9;
+	
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:992px){
+	/*#Chicken{
+		margin-left: 100px;
+	}
+	#Beef{
+		margin-right: 100px;
+	}*/
+}
+@media(min-width:768px) and (max-width: 991px){
+	/*#Chicken{
+		margin-left: 50px;
+	}
+	#Sushi{
+		margin-right: 50px;
+	}
+	#Beef{
+		margin-right: 50px;
+		margin-left: 50px;
+	}*/
+}
+@media(max-width:767px){
+
+.navbar-toggle {
+	margin:40px;
+	background-color: #FFDAB9;
+
+}
+
+#nav-list{
+	margin:0 -15px 0 -15px;
+	background: #FF6347 ;
+	border: 1px ;
+}
+#nav-list a{
+	text-align: center;
+	color: #000000;
+	border: 1px solid #FFDAB9;
+}
+
+#nav-list a:hover {
+	background: #000000;
+}
+#nav-list a span{
+	font-size:1.8em;
+	color: #FFFFFF;
+	font-family: 'Lora', serif;
+
+}	
+
+}
